@@ -4,19 +4,19 @@ vk8s = false
 xc_project_prefix = "demo"
 
 #XC Global
-api_url = "https://<Your Tenant>.console.ves.volterra.io/api"
-xc_tenant = "Your tenant name"
-xc_namespace = "Your XC namespace"
+api_url = "https://treino.console.ves.volterra.io/api"
+xc_tenant = "treino-ufahspac"
+xc_namespace = "ks4reg"
 
 #XC LB
-app_domain = "Your App Domain"
+app_domain = "ks4reg.f5-hyd-demo.com"
 
 #XC WAF
 xc_waf_blocking = true
 xc_data_guard = "false"
 
 #XC Azure CE site creation
-az_ce_site = "false"
+az_ce_site = "true"
 
 #XC Service Discovery
 xc_service_discovery = "false"
@@ -26,9 +26,9 @@ k8s_pool = "false"
 serviceName = ""
 serviceport = ""
 advertise_sites = "false"
-http_only = "false"
-xc_delegation = "false"
-ip_address_on_site_pool = "false"
+http_only = "true"
+xc_delegation = "true"
+ip_address_on_site_pool = "true"
 eks_ce_site = "false"
 user_site = "false"
 
