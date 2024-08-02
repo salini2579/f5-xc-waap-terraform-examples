@@ -6,7 +6,7 @@ xc_project_prefix = "demo"
 #XC Global
 api_url = "https://treino.console.ves.volterra.io/api"
 xc_tenant = "treino-ufahspac"
-xc_namespace = "ks4reg"
+xc_namespace = "automation-waap-waf"
 
 #XC LB
 app_domain = "ks4reg.f5-hyd-demo.com"
