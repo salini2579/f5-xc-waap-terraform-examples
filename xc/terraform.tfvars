@@ -9,7 +9,7 @@ xc_tenant = "treino-ufahspac"
 xc_namespace = "automation-waap-waf"
 
 #XC LB
-app_domain = "ks4reg.f5-hyd-demo.com"
+app_domain = "ks4reg.f5-hyd-xcdemo.com"
 
 #XC WAF
 xc_waf_blocking = true
@@ -19,16 +19,16 @@ xc_data_guard = "false"
 az_ce_site = "true"
 
 #XC Service Discovery
-xc_service_discovery = "false"
+xc_service_discovery = "true"
 
 # pool and LB inputs
-k8s_pool = "false"
-serviceName = ""
-serviceport = ""
+k8s_pool = "true"
+serviceName = "frontend.default"
+serviceport = "80"
 advertise_sites = "false"
 http_only = "true"
 xc_delegation = "true"
-ip_address_on_site_pool = "true"
+ip_address_on_site_pool = "false"
 eks_ce_site = "false"
 user_site = "false"
 
@@ -74,5 +74,5 @@ site_name = ""
 
 # infra (Needed values: aws-infra, azure-infra, gcp-infra)
 aws   = ""
-azure = ""
+azure = "azure-infra"
 gcp   = ""
